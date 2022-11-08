@@ -23,11 +23,18 @@
             <textarea name="msg" id="msg" cols="15" rows="10"></textarea>
         </main>
         <div class="fim">
-            <button type="submit">Gerar</button>
-            <button type="submit">Copiar</button><br>
+            <button type="submit" onclick="pegartexto()">Gerar</button>
+            <button type="submit" onclick="">Copiar</button><br>
             <input type="text" name="link" id="link">
         </div>
-    
+    <!-- Math.floor(Math.random() * 999999) + 000000; -->
     </div>
+    <script>
+        function pegartexto(){
+            const txt = document.querySelector("#pre");
+
+            console.log(txt.value);
+        }
+    </script>
 </body>
 </html>
