@@ -2,3 +2,38 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: transparent;
+    font-family: sans-serif;
+
+}
+.form{
+    margin-inline: auto;
+    margin-block-start: auto;
+    padding-block: 2em;
+    padding-inline: 2em;
+    border-radius: 15px;
+    display: flexbox;
+    width: 20em;
+    height: 20em;
+    background-color: darkblue;
+}
+.form p{
+    color: aqua;
+}
+.form input, .form textarea{
+    background-color: darkblue;
+    border: 1.5px solid aqua;
+}
+button{
+    background-color: darkblue;
+    border: 1.5px solid aqua;
+    color: aqua;
+    width: 6em;
+    height: 2em;
+    margin-block: 1.3em;
+}
+.form textarea{
+    width: 6em;
+    height: 6em;
+}
