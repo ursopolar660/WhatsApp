@@ -1,32 +1,45 @@
+:root{
+    --color: aqua
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: transparent;
+    background-color: #002;
     font-family: sans-serif;
+    display: flex;
+
 
 }
+.titulo{
+    margin-bottom: 0.6em;
+}
 .form{
+    border: 1px solid aqua;
+    text-align: center;
     margin-inline: auto;
-    margin-block-start: auto;
-    padding-block: 2em;
+    margin-block: 10em;
+    padding-block: 1em;
     padding-inline: 2em;
     border-radius: 15px;
-    display: flexbox;
+    /* display: flexbox; */
     width: 20em;
-    height: 20em;
-    background-color: darkblue;
+    height: 21.3em;
+    background-color: transparent;
 }
 .form p{
     color: aqua;
+    margin-bottom: 0.3em;
 }
 .form input, .form textarea{
-    background-color: darkblue;
+    margin-bottom: 0.3em;
+    background-color: transparent;
     border: 1.5px solid aqua;
+    color: aqua;
 }
 button{
-    background-color: darkblue;
+    background-color: transparent;
     border: 1.5px solid aqua;
     color: aqua;
     width: 6em;
@@ -34,6 +47,23 @@ button{
     margin-block: 1.3em;
 }
 .form textarea{
-    width: 6em;
-    height: 6em;
+    width: 24em;
+    height: 10em;
+    resize: none;
+    color: aqua;
+    border-radius: 6px;
+}
+.form header{
+    display: flex;
+}
+.form header input{
+    height: 1.3em;
+    margin-left: 0.4em;
+    margin-right: 2em;
+    width: 3em;
+    border-radius: 3px;
+}
+main p{
+    margin-block: 1em;
+    text-align: left;
 }
