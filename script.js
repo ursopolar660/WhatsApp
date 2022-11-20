@@ -8,8 +8,9 @@ function pegartexto(){
 
     let dados = "https://api.whatsapp.com/send/?phone=55" + ddd + "9" + fix + num + "&text=" + msg;
     document.getElementById("texto").value = dados;
-}
-function cop(){
     document.getElementById("texto").select();
     document.execCommand('copy');
+}
+function use(){
+    alert("Coloque o DDD, o Pré-fixo e a mensagem que deseja enviar.                  Clique no botão GERAR e cole em outra aba do navegador.                  O próprio aplicativo gera os números e copia o link. ")
 }
