@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>Automação WhatsApp</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
             <p>DDD:</p>
             <input type="text" name="ddd" id="ddd">
             <p>Pré-fixo:</p>
-            <input type="text" name="pre" id="pre">
+            <input type="text" name="fixo" id="fixo">
         </header>
         <main>
             <p>Mensagem:</p>
@@ -24,17 +25,12 @@
         </main>
         <div class="fim">
             <button type="submit" onclick="pegartexto()">Gerar</button>
-            <button type="submit" onclick="">Copiar</button><br>
-            <input type="text" name="link" id="link">
+            <button type="button" onclick="cop()">Copiar</button><br>
+            <p id="l"></p>
+            <input type="text" id="texto">
         </div>
-    <!-- Math.floor(Math.random() * 999999) + 000000; -->
-    </div>
-    <script>
-        function pegartexto(){
-            const txt = document.querySelector("#pre");
 
-            console.log(txt.value);
-        }
-    </script>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

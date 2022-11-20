@@ -47,6 +47,7 @@ button{
     margin-block: 1.3em;
     border-radius: 6px;
     margin-left: 0.6em;
+    cursor: pointer;
 }
 .form textarea{
     width: 24em;
@@ -72,4 +73,5 @@ main p{
 .fim input{
     width: 24em;
     border-radius: 3px;
+    color: aqua;
 }
